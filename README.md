@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0217-contains-duplicate](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0977-squares-of-a-sorted-array](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 ## Counting
 |  |
@@ -53,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0189-rotate-array) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/MuhammadSohail400/leetcode-solutions/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
