@@ -1,22 +1,23 @@
+
 /**
  * @param {number[]} nums
  * @return {number[]}
  */
 var sortedSquares = function(nums) {
-    let n = nums.length;
+    let left = 0;
+    let right = nums.length - 1;
+    
+    let result = new Array(nums.length);
 
-    for (let i = 0; i < n; i++) {
-        nums[i] = nums[i] * nums[i];
-    }
-    for (let i = 0; i < n; i++) {
-        for (let j = 0; j < n - 1; j++) {
-            if (nums[j] > nums[j + 1]) {
-                let temp = nums[j];
-                nums[j] = nums[j + 1];
-                nums[j + 1] = temp;
-            }
+    for (let i = nums.length - 1; i >= 0; i--) {
+        if (Math.abs(nums[left]) > Math.abs(nums[right])) {
+            result[i] = nums[left] * nums[left];
+            left++;
+        } else {
+            result[i] = nums[right] * nums[right];
+            right--;
         }
     }
 
-    return nums;
+    return result;
 };
